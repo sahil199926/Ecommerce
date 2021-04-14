@@ -7,9 +7,9 @@ import Detail from './components/landing page/Details/Detail';
 import Products from './components/landing page/products/Products';
 
 function App() {
-  return (<div style={{border:'2px solid black'}} >
+  return (<div >
     <Nav />
-  
+
     </div>
   );
 }

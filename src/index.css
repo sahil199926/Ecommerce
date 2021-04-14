@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media only screen and (max-width:564px ) {
+
+  .product{
+      width: 1000%;
+  }
+  body{
+      background-color: aquamarine;
+  }
+}
+@media only screen and (min-width:564px ) {
+
+  .product{
+      width: 45%;
+  }
+}
+

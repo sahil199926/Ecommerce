@@ -16,12 +16,12 @@ function Products() {
     })
 
     return (
-        <div className='container'>
-            <div className='row' style={{ columnGap: '16%' }}>{val.map((i) => {
+        <div className="container" >
+            <div className='row' style={{ justifyContent:'space-between',rowGap:'100px'}}>{val.map((i) => {
 
 
                 return (
-                    <div key={i.id} style={{ width: '40%' }} >
+                    <div className='product'  key={i.id}  >
                         <Card>
                             <Card.Img variant="top" src={i.image} />
                             <Card.Body>
@@ -34,6 +34,7 @@ function Products() {
                             </Card.Body>
                         </Card>
                     </div>
+                
 
                 )
 
